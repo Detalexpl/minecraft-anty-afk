@@ -1,7 +1,7 @@
 from pynput.mouse import Button, Controller
 import time
 
-mouse = controller()
+mouse = Controller()
 
 while True:
     time.sleep(0.01)
